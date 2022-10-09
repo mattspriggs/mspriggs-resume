@@ -10,3 +10,7 @@ body{
 h1, h2, h3{
     text-align: center;
 }
+.important{
+    font-style: italic;
+    font-weight: bold;
+}

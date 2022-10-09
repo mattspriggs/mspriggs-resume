@@ -4,7 +4,8 @@ body{
 
 .purpose, .audience, .goal {
     border: darkblue solid thick;
-    margin: 3em;
+    margin: 1em;
+    padding: 0 3em;
 }
 h1, h2, h3{
     text-align: center;

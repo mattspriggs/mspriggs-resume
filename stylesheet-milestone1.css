@@ -2,7 +2,7 @@ body{
     font-family: 'Montserrat', 'Open Sans', sans-serif;
 }
 
-.purpose, .audience, .goal {
+.purpose, .audience, .goal, .technology, .attitude-behaviors {
     border: darkblue solid thick;
     margin: 1em 10em;
     padding: 0 3em;

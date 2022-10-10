@@ -1,11 +1,14 @@
 body{
     font-family: 'Montserrat', 'Open Sans', sans-serif;
+    color: white;
+    background-color: black;
 }
 
 .purpose, .audience, .goal, .technology, .attitude-behaviors, .demographics, .use {
     border: darkblue solid thick;
     margin: 1em 10em;
     padding: 0 3em;
+    color: black;
 }
 
 .purpose, .audience, .goal{

@@ -2,10 +2,18 @@ body{
     font-family: 'Montserrat', 'Open Sans', sans-serif;
 }
 
-.purpose, .audience, .goal, .technology, .attitude-behaviors, .demographics {
+.purpose, .audience, .goal, .technology, .attitude-behaviors, .demographics, .use {
     border: darkblue solid thick;
     margin: 1em 10em;
     padding: 0 3em;
+}
+
+.purpose, .audience, .goal{
+    background-color: aqua;
+}
+
+.technology, .attitude-behaviors, .demographics{
+    background-color: dodgerblue;
 }
 h1, h2, h3{
     text-align: center;
@@ -13,4 +21,7 @@ h1, h2, h3{
 .important{
     font-style: italic;
     font-weight: bold;
+}
+.use{
+    background-color: darkseagreen;
 }

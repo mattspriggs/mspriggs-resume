@@ -1,7 +1,7 @@
 body{
     font-family: 'Montserrat', 'Open Sans', sans-serif;
     color: white;
-    background-color: black;
+    background-color: darkslategray;
 }
 
 .purpose, .audience, .goal, .technology, .attitude-behaviors, .demographics, .use {

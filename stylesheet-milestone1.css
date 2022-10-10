@@ -25,6 +25,10 @@ h3{
 h1, h2, h3{
     text-align: center;
 }
+
+h2{
+    padding: 1em;
+}
 .important{
     font-style: italic;
     font-weight: bold;

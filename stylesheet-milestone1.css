@@ -9,7 +9,7 @@ body{
     margin: 1em 10em;
     padding: 0 3em;
     color: black;
-    box-shadow: 1.2em 1.2em .2em .2em rgba(0, 0, 255, .2);
+    box-shadow: .5em .5em .2em .2em rgba(0, 0, 255, .2);
 }
 
 h3{

@@ -1,4 +1,12 @@
-#navbarNav{
-    /*margin-left: auto;*/
-    /*margin-right: auto;*/
+#background-image {
+    background-image: url("images/taos-mtn.jpg");
+    background-size: cover;
+    min-height: 100%;
+}
+.heading{
+    text-align: center;
+    font-weight: bolder;
+}
+.dropdown-menu{
+    font-size: small;
 }

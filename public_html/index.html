@@ -7,39 +7,70 @@
 	<link rel="stylesheet" href="./style.css">
 </head>
 <body>
-<nav class="navbar navbar-expand-lg bg-transparent justify-content-center">
-	<div class="container-fluid">
-<!--		<a class="navbar-brand" href="#"></a>-->
-		<button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav">
-<!--		aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation"-->
+<div class=container id="background-image">
+	<nav class="navbar navbar-expand-lg">
+	<div class="container-fluid justify-content-center">
+		<a class="navbar-brand" href="#"></a>
+		<button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
+		aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
 			<span class="navbar-toggler-icon"></span>
 		</button>
-		<div class="collapse navbar-collapse" id="navbarNav" >
-			<ul class="navbar-nav text-center">
+		<div class="collapse navbar-collapse" id="navbarNav">
+			<ul class="navbar-nav">
 				<li class="nav-item">
-					<a class="nav-link active" aria-current="page" href="#">| Skills |</a>
+					<a class="nav-link" href="#">| Skills |</a>
 				</li>
 				<li class="nav-item">
-					<a class="nav-link" href="#"> Portfolio |</a>
+					<a class="nav-link" href="#">| Portfolio |</a>
 				</li>
 				<li class="nav-item">
-					<a class="nav-link" href="#"> Education |</a>
+					<a class="nav-link" href="#">| Education |</a>
 				</li>
 				<li class="nav-item">
-					<a class="nav-link disabled"> Certifications |</a>
+					<a class="nav-link" href="#">| Certifications |</a>
 				</li>
 				<li class="nav-item">
-					<a class="nav-link disabled"> Experience |</a>
+					<a class="nav-link" href="#">| Experience |</a>
 				</li>
 				<li class="nav-item">
-					<a class="nav-link disabled"> Other |</a>
+					<a class="nav-link" href="#">| Other |</a>
 				</li>
 			</ul>
 		</div>
 	</div>
 </nav>
-<img class="img-fluid" src="images/taos-mtn.jpg"></img>
-<h1></h1>
+</div>
+<h2 class="heading">Skills</h2>
+<div class="button-group row row-cols-2 g-4">
+	<button class="btn dropdown-toggle" type="button" data-bs-toggle="dropdown" aria-expanded = "true">Soft</button>
+	<ul class="dropdown-menu">
+		<li class="dropdown-item">Good Communicator</li>
+		<li class="dropdown-item">Project Management</li>
+		<li class="dropdown-item">People Management</li>
+		<li class="dropdown-item">Strategic Planning</li>
+		<li class="dropdown-item">Budgeting</li>
+		<li class="dropdown-item">Business Planning</li>
+		<li class="dropdown-item">Contract Management</li>
+		<li class="dropdown-item">Conflict Resolution</li>
+		<li class="dropdown-item">Negotiation</li>
+		<li class="dropdown-item">Finance</li>
+		<li class="dropdown-item">Public Speaking</li>
+	</ul>
+	<button class="btn dropdown-toggle" type="button" data-bs-toggle="dropdown" aria-expanded = "true">Tech</button>
+	<ul class="dropdown-menu">
+		<li class="dropdown-item">JavaScript</li>
+		<li class="dropdown-item">Bootstrap</li>
+		<li class="dropdown-item">Node.js</li>
+		<li class="dropdown-item">REACT.js</li>
+		<li class="dropdown-item">Git (command line)</li>
+		<li class="dropdown-item">TypeScript</li>
+		<li class="dropdown-item">Docker</li>
+		<li class="dropdown-item">PostGreSQL</li>
+		<li class="dropdown-item">HTML5</li>
+		<li class="dropdown-item">CSS3</li>
+		<li class="dropdown-item">Java</li>
+	</ul>
+</div>
 
 <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-OERcA2EqjJCMA+/3y+gxIOqMEjwtxJY7qPCqsdltbNJuaOe923+mo//f6V8Qbsw3" crossorigin="anonymous"></script>
 </body>

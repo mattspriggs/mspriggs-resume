@@ -7,6 +7,9 @@
     text-align: center;
     font-weight: bolder;
 }
+.subheading{
+    text-align: center;
+}
 .dropdown-menu{
     font-size: small;
 }

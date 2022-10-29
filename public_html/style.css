@@ -10,8 +10,9 @@
 .subheading{
     text-align: center;
 }
-.dropdown-menu{
+.skill-list{
     font-size: small;
+    text-align: left;
 }
 .experience-list{
     list-style: none;

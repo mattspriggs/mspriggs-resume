@@ -13,14 +13,30 @@
 .skill-list{
     font-size: x-large;
     text-align: left;
+    background-color: #302cf2;
+    color: #2BF2ED;
+}
+.tech-list{
+    font-size: x-large;
+    text-align: left;
+    background-color: #302cf2;
+    color: #2BF2ED;
 }
 .experience-list{
     list-style: none;
 }
 .skills{
-    background-color: #B08515;
-    color: #9ED3FF;
+    background-color: #2D5DFB;
+    color: #2DCBFB;
 }
 .education, .certifications, .experience, .other{
     font-size: x-large;
+}
+.portfolio, .certifications, .other{
+    background-color: #2DCBFB;
+    color: #302cf2;
+}
+.education, .experience{
+    background-color: #302cf2;
+    color: #2BF2ED;
 }

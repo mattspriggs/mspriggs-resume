@@ -11,9 +11,13 @@
     text-align: center;
 }
 .skill-list{
-    font-size: small;
+
     text-align: left;
 }
 .experience-list{
     list-style: none;
+}
+.skills{
+    background-color: #B08515;
+    color: #9ED3FF;
 }

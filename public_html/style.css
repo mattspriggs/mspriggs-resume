@@ -26,7 +26,7 @@
     list-style: none;
 }
 .skills{
-    background-color: #2D5DFB;
+    background-color: #302cf2;
     color: #2DCBFB;
 }
 .education, .certifications, .experience, .other{
@@ -38,5 +38,13 @@
 }
 .education, .experience{
     background-color: #302cf2;
+    color: #2BF2ED;
+}
+.cert-list,.other-list{
+    background-color: #302cf2;
+    color: #2BF2ED;
+}
+.exp-list{
+    background-color:#302cf2;
     color: #2BF2ED;
 }

@@ -21,3 +21,6 @@
     background-color: #B08515;
     color: #9ED3FF;
 }
+.education, .certifications, .experience, .other{
+    font-size: x-large;
+}

@@ -12,31 +12,29 @@
 .subheading{
     text-align: center;
 }
-.skill-list, .tech-ed{
+.skill-list, .tech-ed, .tech-list{
     font-size: x-large;
     text-align: left;
-    background-color: #302cf2;
-    color: #2BF2ED;
-}
-.tech-list{
-    font-size: x-large;
-    text-align: left;
-    background-color: #302cf2;
-    color: #2BF2ED;
+    background-color: #D5D5D3;
+    color: #212F4B;
 }
 .experience-list{
     list-style: none;
 }
 .skills{
-    background-color: #302cf2;
-    color: #2DCBFB;
+    background-color: #D5D5D3;
+    /*background-color: #C5B9A4;*/
+    /*color: #212F4B;*/
+    color: #405981;
 }
 .education, .certifications, .experience, .other{
     font-size: x-large;
 }
 .portfolio, .certifications, .other{
-    background-color: #2DCBFB;
-    color: #302cf2;
+    /*background-color: #E7DBC6;*/
+    background-color: #8FCDFC;
+    /*color: #4B4B49;*/
+    color: #405981;;
 }
 .education, .experience{
     background-color: #302cf2;
@@ -65,4 +63,7 @@ span{
 }
 .comptia-icon{
     max-height: .8em;
+}
+.border, .border-bottom,.border-bottom, #border-color{
+    border-color: #212F4B;
 }

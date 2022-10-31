@@ -1,5 +1,5 @@
 html, body{
-    height: 65%;
+    height: 60%;
 }
 #background-image {
     background-color: #212F4B;
@@ -21,7 +21,7 @@ html, body{
     /*font-size: x-large;*/
     text-align: left;
     /*background-color: #D5D5D3;*/
-    background-color: #FEFEFC;
+    background-color: #D5D5D3;
     color: #212F4B;
 }
 .experience-list{
@@ -29,7 +29,7 @@ html, body{
 }
 .skills, .education, .experience{
     /*background-color: #D5D5D3;*/
-    background-color: #FEFEFC;
+    background-color: #D5D5D3;
     /*background-color: #C5B9A4;*/
     /*color: #212F4B;*/
     color: #405981;
@@ -42,26 +42,26 @@ html, body{
     /*background-color: #8FCDFC;*/
     background-color: #98D6FF;
     /*color: #4B4B49;*/
-    color: #405981;;
+    color: #405981;
 }
 /*.education, .experience{*/
 /*    background-color: #302cf2;*/
 /*    color: #2BF2ED;*/
 /*}*/
 .cert-list,.other-list{
-    background-color: #302cf2;
-    color: #2BF2ED;
+    background-color: #98D6FF;
+    color: #405981;
 }
 .exp-list{
-    background-color:#302cf2;
-    color: #2BF2ED;
+    background-color: #D5D5D3;
+    color: #405981;
 }
 .footer-icon{
     max-height: 3em;
 
 }
 .footer{
-    background-color: #302cf2;
+    background-color: #405981;
 }
 span{
     font-weight: bold;
@@ -70,8 +70,12 @@ span{
     max-height: 1em;
 }
 .comptia-icon{
-    max-height: .8em;
+    max-height: 1em;
 }
-.border, .border-bottom,.border-bottom, #border-color{
+.border, .border-bottom,.border-top, #border-color{
     border-color: #212F4B !important;
+}
+.content-title{
+    background-color: #212F4B;
+    color: #E7DBC6;
 }

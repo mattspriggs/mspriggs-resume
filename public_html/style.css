@@ -23,8 +23,11 @@ header{
 .subheading{
     text-align: center;
 }
+.skill-list, .tech-list{
+    font-size: large;
+}
 .skill-list, .tech-ed, .tech-list{
-    /*font-size: x-large;*/
+
     text-align: left;
     /*background-color: #D5D5D3;*/
     background-color: #D5D5D3;
@@ -67,7 +70,7 @@ header{
 
 }
 .footer{
-    background-color: #405981;
+    background-color: #212F4B;
 }
 span{
     font-weight: bold;

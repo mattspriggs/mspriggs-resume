@@ -1,8 +1,6 @@
-/*html, body{*/
-/*    height: 100%;*/
-/*    */
-/*}*/
-
+html, body{
+    height: 65%;
+}
 #background-image {
     background-color: #212F4B;
     background-image: url("./images/taos-mtn-2.jpg");

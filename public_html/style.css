@@ -1,11 +1,7 @@
 html, body{
     height: 57%;
 }
-header{
-    width: 100%;
-    z-index: 999;
-    position: fixed;
-}
+
 #background-image {
     background-color: #212F4B;
     background-image: url("./images/taos-mtn-2.jpg");
@@ -16,53 +12,52 @@ header{
     background-position: center;
     z-index: 999;
 }
+
 .heading{
     text-align: center;
     font-weight: bolder;
 }
+
 .subheading{
     text-align: center;
 }
+
 .skill-list, .tech-list{
     font-size: large;
 }
-.list-heading, .github{
+
+.list-heading{
     font-size: xx-large;
 }
+
 .list-heading-soft{
     font-size: xx-large;
 }
-.skill-list, .tech-ed, .tech-list{
 
+.skill-list, .tech-ed, .tech-list{
     text-align: left;
-    /*background-color: #D5D5D3;*/
     background-color: #D5D5D3;
     color: #212F4B;
 }
+
 .experience-list{
     list-style: none;
 }
+
 .skills, .education, .experience{
-    /*background-color: #D5D5D3;*/
     background-color: #D5D5D3 !important;
-    /*background-color: #C5B9A4;*/
-    /*color: #212F4B;*/
     color: #405981 !important;
 }
+
 .education, .certifications, .experience, .other{
     font-size: x-large;
 }
+
 .portfolio, .certifications, .other{
-    /*background-color: #E7DBC6;*/
-    /*background-color: #8FCDFC;*/
     background-color: #98D6FF;
-    /*color: #4B4B49;*/
     color: #405981;
 }
-/*.education, .experience{*/
-/*    background-color: #302cf2;*/
-/*    color: #2BF2ED;*/
-/*}*/
+
 .cert-list,.other-list{
     background-color: #98D6FF;
     color: #405981;
@@ -93,4 +88,15 @@ span{
 .content-title{
     background-color: #212F4B;
     color: #E7DBC6;
+}
+.headshot{
+    max-height: 100px;
+}
+a{
+    text-decoration: none;
+    font-size: x-large;
+    color: #212F4B;
+}
+a:link{
+    color: #212F4B;
 }

@@ -1,5 +1,5 @@
 html, body{
-    height: 60%;
+    height: 57%;
 }
 header{
     width: 100%;
@@ -38,10 +38,10 @@ header{
 }
 .skills, .education, .experience{
     /*background-color: #D5D5D3;*/
-    background-color: #D5D5D3;
+    background-color: #D5D5D3 !important;
     /*background-color: #C5B9A4;*/
     /*color: #212F4B;*/
-    color: #405981;
+    color: #405981 !important;
 }
 .education, .certifications, .experience, .other{
     font-size: x-large;

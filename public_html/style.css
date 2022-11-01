@@ -22,6 +22,7 @@ html, body{
     text-align: center;
 }
 
+/*Might benefit from media query to change font size*/
 .skill-list, .tech-list, .nav-link{
     font-size: x-large;
 }

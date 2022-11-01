@@ -26,6 +26,12 @@ header{
 .skill-list, .tech-list{
     font-size: large;
 }
+.list-heading, .github{
+    font-size: xx-large;
+}
+.list-heading-soft{
+    font-size: xx-large;
+}
 .skill-list, .tech-ed, .tech-list{
 
     text-align: left;

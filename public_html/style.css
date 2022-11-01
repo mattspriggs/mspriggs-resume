@@ -22,8 +22,8 @@ html, body{
     text-align: center;
 }
 
-.skill-list, .tech-list{
-    font-size: large;
+.skill-list, .tech-list, .nav-link{
+    font-size: x-large;
 }
 
 .list-heading{
@@ -40,7 +40,7 @@ html, body{
     color: #212F4B;
 }
 
-.experience-list{
+.experience-list, .exp-list, .other-list{
     list-style: none;
 }
 

@@ -69,8 +69,12 @@ html, body{
 }
 .footer-icon{
     max-height: 3em;
-
 }
+
+.mail-icon{
+    max-height: 1em;
+}
+
 .footer{
     background-color: #212F4B;
 }

@@ -23,7 +23,19 @@ html, body{
 }
 
 /*Might benefit from media query to change font size*/
-.skill-list, .tech-list, .nav-link{
+
+    @media (min-width:1200px){
+        .skill-list, .tech-list{
+        font-size: large;
+    }
+}
+@media (max-width: 1199px) {
+    .skill-list, .tech-list{
+        font-size: x-large;
+    }
+}
+
+.nav-link{
     font-size: x-large;
 }
 

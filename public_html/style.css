@@ -22,28 +22,29 @@ html, body{
     text-align: center;
 }
 
-/*Might benefit from media query to change font size*/
+/*Media queries for changing text in the lists of skills*/
 
-    @media (min-width:1200px){
-        .skill-list, .tech-list{
+@media (min-width:1200px){
+        .skill-list, .tech-list, .nav-link,.education, .certifications, .experience, .other{
         font-size: large;
     }
 }
+
 @media (min-width: 768px) and (max-width: 1199px) {
-    .skill-list, .tech-list{
+    .skill-list, .tech-list, .nav-link,.education, .certifications, .experience, .other{
         font-size: x-large;
     }
 }
 
 @media (max-width: 767px) {
-    .skill-list, .tech-list{
+    .skill-list, .tech-list, .nav-link,.education, .certifications, .experience, .other{
         font-size: xx-large;
     }
 }
 
-.nav-link{
-    font-size: x-large;
-}
+/*.nav-link{*/
+/*    font-size: x-large;*/
+/*}*/
 
 .list-heading{
     font-size: xx-large;
@@ -68,9 +69,9 @@ html, body{
     color: #405981 !important;
 }
 
-.education, .certifications, .experience, .other{
-    font-size: x-large;
-}
+/*.education, .certifications, .experience, .other{*/
+/*    font-size: x-large;*/
+/*}*/
 
 .portfolio, .certifications, .other{
     background-color: #98D6FF;

@@ -24,23 +24,23 @@ html, body{
 
 /*Media queries for changing text in the lists of skills*/
 
-@media (min-width:1200px){
-        .skill-list, .tech-list, .nav-link{
+
+.skill-list, .tech-list, .nav-link{
         font-size: large;
-    }
 }
 
-@media (min-width: 768px) and (max-width: 1199px) {
-    .skill-list, .tech-list, .nav-link{
-        font-size: x-large;
-    }
-}
 
-@media (max-width: 767px) {
-    .skill-list, .tech-list, .nav-link{
-        font-size: xx-large;
-    }
-}
+/*@media (min-width: 768px) and (max-width: 1199px) {*/
+/*    .skill-list, .tech-list, .nav-link{*/
+/*        font-size: x-large;*/
+/*    }*/
+/*}*/
+
+/*@media (max-width: 767px) {*/
+/*    .skill-list, .tech-list, .nav-link{*/
+/*        font-size: xx-large;*/
+/*    }*/
+/*}*/
 
 /*.nav-link{*/
 /*    font-size: x-large;*/
@@ -70,7 +70,7 @@ html, body{
 }
 
 .education, .certifications, .experience, .other{
-    font-size: x-large;
+    font-size: large;
 }
 
 .portfolio, .certifications, .other{
@@ -91,7 +91,7 @@ html, body{
 }
 
 .mail-icon{
-    max-height: 1.5em;
+    max-height: 1em;
 }
 
 .footer{

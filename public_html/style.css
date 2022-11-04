@@ -25,9 +25,9 @@ html, body{
 /*Media queries for changing text in the lists of skills*/
 
 
-.skill-list, .tech-list, .nav-link{
-        font-size: large;
-}
+/*.skill-list, .tech-list, .nav-link{*/
+/*        font-size: large;*/
+/*}*/
 
 
 /*@media (min-width: 768px) and (max-width: 1199px) {*/
@@ -47,11 +47,11 @@ html, body{
 /*}*/
 
 .list-heading{
-    font-size: xx-large;
+    font-size: x-large;
 }
 
 .list-heading-soft{
-    font-size: xx-large;
+    font-size: x-large;
 }
 
 .skill-list, .tech-ed, .tech-list{

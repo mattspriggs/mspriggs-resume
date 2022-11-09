@@ -10,7 +10,6 @@ html, body{
     min-height: 100%;
     min-width: 100%;
     background-position: center;
-    z-index: 999;
 }
 
 .heading{
@@ -22,30 +21,6 @@ html, body{
     text-align: center;
 }
 
-/*Media queries for changing text in the lists of skills*/
-
-
-/*.skill-list, .tech-list, .nav-link{*/
-/*        font-size: large;*/
-/*}*/
-
-
-/*@media (min-width: 768px) and (max-width: 1199px) {*/
-/*    .skill-list, .tech-list, .nav-link{*/
-/*        font-size: x-large;*/
-/*    }*/
-/*}*/
-
-/*@media (max-width: 767px) {*/
-/*    .skill-list, .tech-list, .nav-link{*/
-/*        font-size: xx-large;*/
-/*    }*/
-/*}*/
-
-/*.nav-link{*/
-/*    font-size: x-large;*/
-/*}*/
-
 .list-heading{
     font-size: x-large;
 }
@@ -54,7 +29,7 @@ html, body{
     font-size: x-large;
 }
 
-.skill-list, .tech-ed, .tech-list{
+.skill-list, .tech-ed{
     text-align: left;
     background-color: #D5D5D3;
     color: #212F4B;
@@ -82,45 +57,47 @@ html, body{
     background-color: #98D6FF;
     color: #405981;
 }
+
 .exp-list{
     background-color: #D5D5D3;
     color: #405981;
 }
+
 .footer-icon{
     max-height: 1.5em;
-}
-
-.mail-icon{
-    max-height: 1em;
 }
 
 .footer{
     background-color: #212F4B;
 }
+
 span{
     font-weight: bold;
 }
+
 .icon{
     max-height: 1em;
 }
-.comptia-icon{
-    max-height: 1em;
-}
-.border, .border-bottom,.border-top, #border-color{
+
+.border, .border-bottom,.border-top{
     border-color: #212F4B !important;
 }
+
 .content-title{
     background-color: #212F4B;
     color: #E7DBC6;
 }
+
 .headshot{
     max-height: 100px;
 }
+
 a{
     text-decoration: none;
     font-size: large;
     color: #212F4B;
 }
+
 a:link{
     color: #212F4B;
 }

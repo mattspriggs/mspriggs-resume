@@ -4,7 +4,7 @@ html, body{
 
 #background-image {
     background-color: #212F4B;
-    background-image: url("./images/taos-mtn-2.jpg");
+    background-image: url("images/taos-mtn-2.jpg");
     background-size: auto 100%;
     background-repeat: no-repeat;
     min-height: 100%;

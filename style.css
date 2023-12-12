@@ -1,103 +1,117 @@
-html, body{
-    height: 57%;
+html,
+body {
+  height: 57%;
 }
 
 #background-image {
-    background-color: #212F4B;
-    background-image: url("images/taos-mtn-2.jpg");
-    background-size: auto 100%;
-    background-repeat: no-repeat;
-    min-height: 100%;
-    min-width: 100%;
-    background-position: center;
+  background-color: #212f4b;
+  background-image: url('images/drs-point-nz-reduced.jpg');
+  background-size: auto 100%;
+  background-repeat: no-repeat;
+  min-height: 100%;
+  min-width: 100%;
+  background-position: center;
 }
 
-.heading{
-    text-align: center;
-    font-weight: bolder;
+.heading {
+  text-align: center;
+  font-weight: bolder;
 }
 
-.subheading{
-    text-align: center;
+.subheading {
+  text-align: center;
 }
 
-.list-heading{
-    font-size: x-large;
+.list-heading {
+  font-size: x-large;
 }
 
-.list-heading-soft{
-    font-size: x-large;
+.list-heading-soft {
+  font-size: x-large;
 }
 
-.skill-list, .tech-ed{
-    text-align: left;
-    background-color: #D5D5D3;
-    color: #212F4B;
+.skill-list,
+.tech-ed {
+  text-align: left;
+  background-color: #d5d5d3;
+  color: #212f4b;
 }
 
-.experience-list, .exp-list, .other-list{
-    list-style: none;
+.experience-list,
+.exp-list,
+.other-list {
+  list-style: none;
 }
 
-.skills, .education, .experience{
-    background-color: #D5D5D3 !important;
-    color: #405981 !important;
+.skills,
+.education,
+.experience {
+  background-color: #d5d5d3 !important;
+  color: #405981 !important;
 }
 
-.education, .certifications, .experience, .other{
-    font-size: large;
+.education,
+.certifications,
+.experience,
+.other {
+  font-size: large;
 }
 
-.portfolio, .certifications, .other{
-    background-color: #98D6FF;
-    color: #405981;
+.portfolio,
+.certifications,
+.other {
+  background-color: #98d6ff;
+  color: #405981;
 }
 
-.cert-list,.other-list{
-    background-color: #98D6FF;
-    color: #405981;
+.cert-list,
+.other-list {
+  background-color: #98d6ff;
+  color: #405981;
 }
 
-.exp-list{
-    background-color: #D5D5D3;
-    color: #405981;
+.exp-list {
+  background-color: #d5d5d3;
+  color: #405981;
 }
 
-.footer-icon{
-    max-height: 1.5em;
+.footer-icon {
+  max-height: 1.5em;
 }
 
-.footer{
-    background-color: #212F4B;
+.footer {
+  background-color: #212f4b;
 }
 
-span{
-    font-weight: bold;
+span {
+  font-weight: bold;
 }
 
-.icon{
-    max-height: 1em;
+.icon {
+  max-height: 1em;
 }
 
-.border, .border-bottom,.border-top{
-    border-color: #212F4B !important;
+.border,
+.border-bottom,
+.border-top {
+  border-color: #212f4b !important;
 }
 
-.content-title{
-    background-color: #212F4B;
-    color: #E7DBC6;
+.content-title {
+  background-color: #212f4b;
+  color: #e7dbc6;
 }
 
-.headshot{
-    max-height: 150px;
+.headshot {
+  max-height: 150px;
 }
 
-a{
-    text-decoration: none;
-    font-size: large;
-    color: #212F4B;
+a {
+  text-decoration: none;
+  font-size: large;
+  color: #212f4b;
 }
 
-a:link{
-    color: #212F4B;
+a:link {
+  color: #212f4b;
 }

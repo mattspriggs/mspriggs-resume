@@ -115,3 +115,6 @@ a {
 a:link {
   color: #212f4b;
 }
+.nav-link {
+  color: #e7dbc6 !important;
+}
